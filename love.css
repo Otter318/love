@@ -1,0 +1,60 @@
+body {
+    font-size: 19px;
+    background: #b700ffd0;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    background: rgba(208, 221, 173)
+}
+
+.why {
+    background: rgb(94, 36, 94);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hah {
+    background: rgb(94, 36, 94);
+    color: #fff;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(100, 116, 28);
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.menu a {
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+.menu a:hover {
+    background: rgba(5, 146, 156, 0.808);
+}
+
+.info {
+    text-align: center;
+}
+
+/* @media (max-width: 650px) {
+
+} */
